@@ -4,7 +4,7 @@ This notification script is used to configure and display desktop notifications 
 # How to use
 <strong>Step 1</strong>
 Add the javascript reference on any page HTML, PHP etc<br>
---<script type="text/javascript" src="path-to-js/notification.js"></script>--
+```<script type="text/javascript" src="path-to-js/notification.js"></script>```
 
 <br><br>
 <strong>Step 2</strong>
