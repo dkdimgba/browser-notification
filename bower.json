@@ -23,16 +23,6 @@
       "type": "git",
       "url": "http://github.com/dkdimgba/browser-notification.git"
     },
-    "autoload": {
-        "psr-4": {
-            "Dkdimgba\\browser-notification\\": "dist"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Dkdimgba\\browser-notification\\test": "test"
-        }
-    },
     "ignore": [
         ".gitignore",
         "bower.json",
