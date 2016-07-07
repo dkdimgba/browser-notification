@@ -3,7 +3,10 @@ This notification script is used to configure and display desktop notifications 
 
 # How to use
 ## Step 1
-Add the javascript reference on any page HTML, PHP etc<br>
+You have to install the page using <strong>bower</strong>. This is recommended<br>
+```$ bower install dkdimgba/browser-notification```
+<br>
+Or add the javascript reference to your html page<br>
 ```<script type="text/javascript" src="path-to-js/notification.js"></script>```
 <br><br>
 ## Step 2
