@@ -21,7 +21,7 @@
     ],
     "repository": {
       "type": "git",
-      "url": "git://github.com/dkdimgba/browser-notification.git"
+      "url": "http://github.com/dkdimgba/browser-notification.git"
     },
     "autoload": {
         "psr-4": {
@@ -34,16 +34,12 @@
         }
     },
     "ignore": [
-        "source",
-        "spec",
-        ".bowerrc",
         ".gitignore",
-        ".jshintignore",
-        ".jshintrc",
         "bower.json",
-        "gruntfile.js",
-        "package.json",
-        "README.md"
+        ".gitattributes",
+        ".editorconfig",
+        "CHANGELOG.md",
+        "CONTRIBUTING.md"
     ]
 }
 
