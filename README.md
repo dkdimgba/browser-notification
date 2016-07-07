@@ -65,11 +65,11 @@ Please feel free to fork this package and contribute by submitting a pull reques
 
 ## How can I thank you?
 
-Why not star the github repo? I'd love the attention! Why not share the link for this repository on Twitter or HackerNews? Spread the word!
+Why not star the github repo? I'd love it. It'll encourage me! Share the link for this repository on Twitter or HackerNews. Spread the word!
 
 Don't forget to [follow me on twitter](https://twitter.com/dkdimgba)!
 
-Thanks!
+Thanks!<br>
 Dimgba Kalu.
 
 ## License
