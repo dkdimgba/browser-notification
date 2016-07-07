@@ -33,9 +33,6 @@
             "Dkdimgba\\browser-notification\\test": "test"
         }
     },
-    "scripts": {
-        "test": "phpunit"
-    },
     "ignore": [
         "source",
         "spec",
