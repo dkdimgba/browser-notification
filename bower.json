@@ -21,7 +21,7 @@
     ],
     "repository": {
       "type": "git",
-      "url": "git://github.com/foo/bar.git"
+      "url": "git://github.com/dkdimgba/browser-notification.git"
     },
     "autoload": {
         "psr-4": {
