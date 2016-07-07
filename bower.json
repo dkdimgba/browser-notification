@@ -1,7 +1,41 @@
 {
-    "name": "browser-notification",
+    "name": "dkdimgba/browser-notification",
     "version": "0.0.1",
-    "main": "dist/notification.js",
+    "description": "Browser notification for web apps",
+    "keywords": [
+        "dkdimgba",
+        "browser",
+        "notification",
+        "web",
+        "apps"
+    ],
+    "homepage": "https://github.com/dkdimgba/browser-notification",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": ":Dimgba Kalu",
+            "email": "dkdimgba@gmail.com",
+            "homepage": "http://dkdimgba.com",
+            "role": "Developer"
+        }
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/foo/bar.git"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dkdimgba\\browser-notification\\": "dist"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dkdimgba\\browser-notification\\test": "test"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
     "ignore": [
         "source",
         "spec",
@@ -15,5 +49,4 @@
         "README.md"
     ]
 }
-
 
