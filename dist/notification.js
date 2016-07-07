@@ -45,8 +45,8 @@ document.addEventListener('DOMContentLoaded', function ()
 
 	document.querySelector("#desktopNotification").addEventListener("click", function(e)
 	{
-		// randomly select number from 1 to 10
-		var randomNumber = Math.floor((Math.random() * 10) + 1);
+		// randomly select number from 1 to 3
+		var randomNumber = Math.floor((Math.random() * 3) + 1);
 		// get the title from the array articles
 		var title = articles[randomNumber][0];
 		/* I used a fixed description. YOu can as well add it to the array
