@@ -21,12 +21,12 @@ setTimeout(function(){
 	var randomNumber = Math.floor((Math.random() * 3) + 1);
 	// get the title from the array articles
 	var title = articles[randomNumber][0];
-	/* I used a fixed description. YOu can as well add it to the array
+	/* I used a fixed description. You can as well add it to the array
        add pass it like this 
        var desc = articles[randomNumber][1];
     */
 	var description = 'ProJaro is a talent accelartaion startup.';
-	// get the url of teh article
+	// get the url of tech article
 	var url = articles[randomNumber][1];
 	// call browser notification
 	browserNotification(title,description,url);
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function ()
 		var randomNumber = Math.floor((Math.random() * 3) + 1);
 		// get the title from the array articles
 		var title = articles[randomNumber][0];
-		/* I used a fixed description. YOu can as well add it to the array
+		/* I used a fixed description. You can as well add it to the array
 	       add pass it like this 
 	       var desc = articles[randomNumber][1];
 	    */
@@ -65,14 +65,14 @@ document.addEventListener('DOMContentLoaded', function ()
 
 
 /* function to call the notification
- * checks if notification is avaliable on your browser
+ * checks if notification is available on your browser
  * checks if permission is granted to show the notification
  * displays notification
  * removes notification
 */
 function browserNotification(title,desc,url) 
 {
-	// check if notification is vaaliable
+	// check if notification is available
 	if (!Notification) {
 		// if not displays message on console
 		console.log('Desktop notifications is not available in your browser..'); 
@@ -80,7 +80,7 @@ function browserNotification(title,desc,url)
 		return;
 	}
 
-	// if notification avaliable, check if user have granted permission
+	// if notification available, check if user have granted permission
 	if (Notification.permission !== "granted")
 	{
 		// if permission is not granted, then request for one
